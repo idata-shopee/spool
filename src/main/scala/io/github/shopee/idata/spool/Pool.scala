@@ -1,9 +1,8 @@
-package io.github.shopee.idata.spool
+package io.github.free.lock.spool
 
 import scala.concurrent.{ ExecutionContext, Future }
-import io.github.shopee.idata.klog.KLog
+import io.github.free.lock.klog.KLog
 import java.util.UUID.randomUUID
-import io.github.shopee.idata.taskqueue.TimeoutScheduler
 import scala.collection.mutable.{ ListBuffer }
 import java.util.concurrent.ConcurrentHashMap
 import scala.collection.convert.decorateAsScala._

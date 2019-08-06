@@ -1,5 +1,5 @@
 name := "spool"
-organization := "io.github.idata-shopee"
+organization := "io.github.lock-free"
 version := "0.0.1"
 scalaVersion := "2.12.4"
 
@@ -10,10 +10,9 @@ publishTo := sonatypePublishTo.value
 
 libraryDependencies ++= Seq(
   // Log lib
-  "io.github.idata-shopee" %% "klog" % "0.1.0",
+  "io.github.lock-free" %% "klog" % "0.1.0",
 
-  // taskqueue
-  "io.github.idata-shopee" %% "taskqueue" % "0.1.0",
+  "io.netty" % "netty" % "3.7.0.Final",
 
   // test suite
   "org.scalatest" %% "scalatest" % "3.0.1" % Test

@@ -1,4 +1,4 @@
-package io.github.shopee.idata.spool
+package io.github.free.lock.spool
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.{ Await, Future, Promise, duration }
